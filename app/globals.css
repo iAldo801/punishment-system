@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+    -webkit-user-drag: none;
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    src: url(../public//SpaceGrotesk.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 50px;
+}
+
+li {
+    list-style: none;
+}
